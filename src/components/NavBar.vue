@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const links = [
   { name: 'Nos services', dest: 'services' },
-  { name: "L'équipe", dest: 'team' },
+  { name: "L’équipe", dest: 'team' },
   { name: 'À propos', dest: 'about' },
 ];
 
