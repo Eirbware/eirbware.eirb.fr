@@ -66,6 +66,10 @@ onMounted(() => {
         <button @click="scrollToSection('top')">
           <img src="../assets/logos/round_logo_eirbware.svg" alt="Logo Eirbware" class="h-12" />
         </button>
+        <button @click="scrollToSection('top')">
+            <!-- Technically, EIRB is yellow and WARE is black but it looks weird on the website -->
+          <strong>EIRB<span class="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">WARE</span></strong>
+        </button>
         <ul class="hidden flex-row md:flex">
           <li v-for="l in links" class="pl-12 text-xl duration-200 hover:opacity-80 lg:pl-20">
             <button @click="scrollToSection(l.dest)">{{ l.name }}</button>
