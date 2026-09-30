@@ -55,16 +55,16 @@ onMounted(() => {
       <h1
         class="xs:text-4xl xs:leading-relaxed max-w-96 sm:max-w-3xl text-3xl font-bold leading-relaxed lg:-mt-20 lg:text-5xl lg:leading-normal"
       >
-        L'association
+        L’association
         <span class="whitespace-nowrap">
-          d'
+          d’
           <span class="bg-gradient-to-r from-primary to-accent bg-clip-text font-semibold text-transparent">
             informatique
           </span>
         </span>
-        de l'ENSEIRB-MATMECA
+        de l’ENSEIRB-MATMECA
       </h1>
-      <p class="xs:text-xl w-10/12 pb-2 text-lg">Le numérique au service des étudiants et de l'associatif</p>
+      <p class="xs:text-xl w-10/12 pb-2 text-lg">Le numérique au service des étudiants et de l’associatif</p>
       <div class="xs:text-base flex flex-row flex-wrap gap-5 text-sm">
         <a @click="scrollToSection('services')">
           <LandingButton text="Nous découvrir" color="bg-primary" />
