@@ -6,7 +6,7 @@ const services = [
   {
     icon: 'build_FILL0_wght400_GRAD0_opsz24.svg',
     title: 'Assistances',
-    text: "Tout au long de l'année, nous accompagnons les étudiants dans l’installation, la prise en main et la maintenance de leur environnement de travail.",
+    text: 'Tout au long de l’année, nous accompagnons les étudiants dans l’installation, la prise en main et la maintenance de leur environnement de travail.',
   },
   {
     icon: 'dns_FILL0_wght400_GRAD0_opsz24.svg',
