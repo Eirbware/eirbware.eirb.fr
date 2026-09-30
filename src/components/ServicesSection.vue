@@ -32,15 +32,14 @@ const services = [
       >
         <h3 class="text-3xl font-medium xl:text-4xl">
           Le portail
-          <span class="bg-gradient-to-r from-primary to-accent bg-clip-text font-semibold italic text-transparent">
+          <a href="https://eirb.fr" class="bg-gradient-to-r from-primary to-accent bg-clip-text font-semibold italic text-transparent">
             eirb.fr
-          </span>
+          </a>
         </h3>
         <p>
           À travers la page
-          <span class="italic">eirb.fr</span>
-          , nous proposons un accès rapide à l’ensemble des ressources utilisées par les élèves au quotidien : ENT,
-          syllabus, emploi du temps, Moodle, sites des clubs et assos ...
+          <a href="https://eirb.fr" class="italic">eirb.fr</a>, nous proposons un accès rapide à l’ensemble des ressources utilisées par les élèves au quotidien :
+          ENT, syllabus, emploi du temps, Moodle, sites des clubs et assos ...
         </p>
         <img src="../assets/img/bee.svg" alt="Abeille" class="h-48 rotate-6 xl:hidden" />
       </div>
