@@ -22,7 +22,7 @@ const links = [
           <br /> -->
           Placé sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> · Eirbware 2026
           <br />
-          Réalisé par Luxel H · Mis à jour par Artémis et Noah
+          Réalisé par Luxel H. · Mis à jour par Artémis et Noah C.
         </p>
       </div>
       <a href="https://enseirb-matmeca.bordeaux-inp.fr"><img src="../assets/logos/logo_em.svg" alt="ENSEIRB-MATMECA" class="w-64" /></a>
