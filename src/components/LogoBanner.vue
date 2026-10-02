@@ -8,23 +8,24 @@ const logos = [
   { name: 'BDE', url: 'bde.png', link: 'https://bde.eirb.fr' },
   { name: 'BDS', url: 'bds.png', link: 'https://bds.eirb.fr' },
   { name: 'Essaim', url: 'essaim.png', link: 'https://essaim.eirb.fr' },
-  // { name: 'EirSport', url: 'eirsport.png', link: 'https://eirsport.eirb.fr' }, // site très peu à jour
-  // { name: "Gala Mos'fête", url: 'gala.png', link: 'https://gala.eirb.fr' }, // site inexistant
   { name: 'Le Bar', url: 'bar.png', link: 'https://bar.eirb.fr' },
   { name: 'Eirbot', url: 'eirbot.png', link: 'https://eirbot.eirb.fr' },
+  { name: 'Game Creation Club', url: 'gcc.png', link: 'https://gcc.eirb.fr' }, // site très peu à jour
+  { name: "Coutur'eirb", url: 'coutureirb.png', link: 'https://coutur.eirb.fr' },
+  { name: "Apicult'eirb", url: 'apiculteirb.png', link: 'https://apicult.eirb.fr' }, // site plutôt à jour
+  { name: 'Œno', url: 'oeno.png', link: 'https://oeno.eirb.fr' }, // site presque à jour
+  { name: "PixEirb", url: 'pixeirb.png', link: 'https://pix.eirb.fr' },
+  { name: 'Unlock', url: 'unlock.png', link: 'https://unlock.eirb.fr' },
+  { name: 'Zik', url: 'zik.png', link: 'https://zik.eirb.fr' },
+  { name: 'VOST', url: 'vost.png', link: 'https://vost.eirb.fr' },
+  // { name: 'EirSport', url: 'eirsport.png', link: 'https://eirsport.eirb.fr' }, // site très peu à jour
+  // { name: "Gala Mos'fête", url: 'gala.png', link: 'https://gala.eirb.fr' }, // site inexistant
+  // { name: 'Club Théâtre', url: 'theatre.png', link: 'https://theatre.eirb.fr' }, // site très peu à jour
   // Eirlab, Eirspace, F6KQH et AEI sont indépendants sur leurs sites, on ne les héberge pas donc on ne les mets pas sur notre page
   // { name: "Bill'eirb", url: 'billeirb.png', link: 'https://bill.eirb.fr' }, // site inexistant
   // { name: "Cook'eirb", url: 'cookeirb.png', link: 'https://cook.eirb.fr' }, // site inexistant
   // { name: "CherieF'eirb", url: 'cheriefeirb.png', link: 'https://radio.eirb.fr' }, // club inactif
   // { name: 'EMK', url: 'emk.png', link: 'https://emk.eirb.fr' },
-  { name: 'Game Creation Club', url: 'gcc.png', link: 'https://gcc.eirb.fr' }, // site très peu à jour
-  { name: "Coutur'eirb", url: 'coutureirb.png', link: 'https://coutur.eirb.fr' },
-  { name: "Apicult'eirb", url: 'apiculteirb.png', link: 'https://apicult.eirb.fr' }, // site plutôt à jour
-  { name: 'Œno', url: 'oeno.png', link: 'https://oeno.eirb.fr' }, // site presque à jour
-  { name: "Pix'eirb", url: 'pixeirb.png', link: 'https://pix.eirb.fr' },
-  // { name: 'Club Théâtre', url: 'theatre.png', link: 'https://theatre.eirb.fr' }, // site très peu à jour
-  { name: 'Unlock', url: 'unlock.png', link: 'https://unlock.eirb.fr' },
-  { name: 'Zik', url: 'zik.png', link: 'https://zik.eirb.fr' }, // site totalement pété, je crois que c'est prévu de l'update
 ].sort(() => Math.random() - 0.5); // marrant de les mettre en ordre aléatoire, c'est une bonne idée
 
 const [lw1, lw2] = [ref(null), ref(null)];
