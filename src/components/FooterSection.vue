@@ -11,7 +11,7 @@ const links = [
 </script>
 
 <template>
-  <section class="border-t border-gray-300 bg-[#F3F2F2] mt-10">
+  <section class="border-t border-gray-300 bg-footer mt-10">
     <div class="min-h-2/5 m-auto flex w-11/12 max-w-screen-xl flex-col items-center justify-around gap-5 p-6 lg:flex-row lg:p-10">
       <div class="flex w-64 flex-row justify-between">
         <a v-for="l in links" :href="l.url"><img :src="iconUrl(l.icon)" :alt="l.name" class="h-9" /></a>
@@ -22,7 +22,7 @@ const links = [
           <br /> -->
           Placé sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> · Eirbware 2026
           <br />
-          Réalisé par Luxel H. · Mis à jour par Artémis et Noah C.
+          Réalisé par Luxel H. · Mis à jour et amélioré par Artémis et Noah C.
         </p>
       </div>
       <a href="https://enseirb-matmeca.bordeaux-inp.fr"><img src="../assets/logos/logo_em.svg" alt="ENSEIRB-MATMECA" class="w-64" /></a>

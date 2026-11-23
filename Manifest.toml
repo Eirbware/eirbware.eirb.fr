@@ -1,0 +1,6 @@
+[package]
+name = "eirbware.eirb.fr"
+description = "Eirbware's website"
+version = "0.2.0"
+license = "CC By-NC-SA"
+authors = [ "Eirbware", "Noah Couillaud <noah.couillaud@enseirb-matmeca.fr>", "Luxel Hamouche <luxel.hamouche.lh@gmail.com>", "Artémystère <contact+dev@artemystere.fr>"]

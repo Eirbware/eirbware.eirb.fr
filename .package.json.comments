@@ -1,0 +1,2 @@
+The _coco.svg seems to be unused by vite, so it does not add it to build, however we use these assets by changing href url with javascript. I tried do deactivate the optimisations done by vite but I failed. Fuck JS once again.
+My solution was to manually copy files in dist/

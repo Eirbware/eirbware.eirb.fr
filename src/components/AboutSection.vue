@@ -32,7 +32,7 @@ import GradientTitle from './GradientTitle.vue';
         </p>
       </div>
       <div
-        class="order-2 flex min-h-[28rem] w-[100%] max-w-[24rem] flex-col items-center gap-9 rounded-3xl bg-accent bg-opacity-20 px-10 py-14 md:min-h-0 md:w-[21rem] md:max-w-none md:grow xl:h-[28rem] 2xl:w-[23rem]"
+        class="order-2 flex min-h-[28rem] w-[100%] max-w-[24rem] flex-col items-center gap-9 rounded-3xl bg-secondary bg-opacity-20 px-10 py-14 md:min-h-0 md:w-[21rem] md:max-w-none md:grow xl:h-[28rem] 2xl:w-[23rem]"
       >
         <h3 class="text-3xl font-medium">Nos engagements en matière de confidentialité des données</h3>
         <p>
