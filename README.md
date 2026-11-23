@@ -1,22 +1,35 @@
 # eirbware-website
 
-Web page created to promote Eirbware, ENSEIRB-MATMECA's computer association.  
+Web page created to promote Eirbware, ENSEIRB-MATMECA's computer science association.
 Made with [Vue.js](https://vuejs.org/), [Tailwind CSS](https://tailwindcss.com/) and [GSAP](https://gsap.com/).
 
-- [Preview](https://lhamouche.github.io/eirbware-website/)
+## With npm
 
-## Setup
+### Install dependencies
+``` sh
+npm install
+```
+### start development server
+```sh
+npm run dev
+```
+### build for production
+```sh
+npm run build
+```
+### preview production build
+```sh
+npm run preview
+```
 
-``` bash
-# install dependencies
-$ npm install
+## With nix
 
-# start development server
-$ npm run dev
+### Use devshell
+```sh
+nix develop
+```
+### Build
 
-# build for production
-$ npm run build
-
-# preview production build
-$ npm run preview
+```sh
+nix build
 ```
