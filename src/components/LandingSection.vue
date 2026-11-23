@@ -31,13 +31,13 @@ onMounted(() => {
       <div class="-mb-3 ml-[50%] sm:ml-[50%]">
         <img
           src="../assets/img/core_1.svg"
-          class="top-[13%] h-14 sm:h-16 lg:absolute lg:right-[20%] lg:h-24 xl:right-[30%] xl:h-28 2xl:left-[calc(50%+200px)] 2tall:lg:top-[120px]"
+          class="toReloadCoco top-[13%] h-14 sm:h-16 lg:absolute lg:right-[20%] lg:h-24 xl:right-[30%] xl:h-28 2xl:left-[calc(50%+200px)] 2tall:lg:top-[120px]"
         />
       </div>
       <div class="-mb-48 ml-[5%] sm:ml-[10%] lg:mb-0">
         <img
           src="../assets/img/core_2.svg"
-          class="top-[30%] h-20 rotate-12 sm:h-28 lg:absolute lg:right-[5%] lg:h-40 xl:right-[10%] xl:h-44 2xl:left-[calc(50%+450px)] 2tall:lg:top-[290px]"
+          class="toReloadCoco top-[30%] h-20 rotate-12 sm:h-28 lg:absolute lg:right-[5%] lg:h-40 xl:right-[10%] xl:h-44 2xl:left-[calc(50%+450px)] 2tall:lg:top-[290px]"
         />
       </div>
       <div class="-mb-3 ml-[50%] sm:ml-[55%]">
@@ -47,9 +47,9 @@ onMounted(() => {
           <img
             ref="bee"
             src="../assets/img/bee.svg"
-            class="-mb-12 ml-16 h-24 rotate-18 sm:-mb-16 sm:ml-16 sm:h-32 lg:-mb-24 lg:ml-28 lg:h-44"
+            class="toReloadCoco -mb-12 ml-16 h-24 rotate-18 sm:-mb-16 sm:ml-16 sm:h-32 lg:-mb-24 lg:ml-28 lg:h-44"
           />
-          <img src="../assets/img/core_3.svg" class="h-36 -rotate-18 sm:h-44 lg:h-56 xl:h-64" />
+          <img src="../assets/img/core_3.svg" class="toReloadCoco h-36 -rotate-18 sm:h-44 lg:h-56 xl:h-64" />
         </div>
       </div>
       <h1

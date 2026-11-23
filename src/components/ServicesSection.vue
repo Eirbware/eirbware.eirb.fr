@@ -26,9 +26,9 @@ const services = [
     <GradientTitle text="Nos" coloredText="services" />
     <div class="flex flex-wrap justify-center gap-8 font-poppins md:justify-between 2xl:gap-14">
       <ServiceItem v-for="s in services" :icon="s.icon" :title="s.title" :text="s.text" />
-      <img src="../assets/img/bee.svg" alt="Abeille" class="m-auto hidden h-44 -rotate-12 pl-5 xl:block" />
+      <img src="../assets/img/bee.svg" alt="Abeille" class="toReloadCoco m-auto hidden h-44 -rotate-12 pl-5 xl:block" />
       <div
-        class="flex h-[28rem] max-w-[24rem] flex-col items-center gap-9 overflow-hidden rounded-3xl bg-accent bg-opacity-20 px-10 py-14 md:w-[21rem] xl:h-auto xl:w-[50rem] xl:max-w-max xl:items-start 2xl:w-[60rem]"
+        class="flex h-[28rem] max-w-[24rem] flex-col items-center gap-9 overflow-hidden rounded-3xl bg-secondary bg-opacity-20 px-10 py-14 md:w-[21rem] xl:h-auto xl:w-[50rem] xl:max-w-max xl:items-start 2xl:w-[60rem]"
       >
         <h3 class="text-3xl font-medium xl:text-4xl">
           Le portail
@@ -41,7 +41,7 @@ const services = [
           <a href="https://eirb.fr" class="italic">eirb.fr</a>, nous proposons un accès rapide à l’ensemble des ressources utilisées par les élèves au quotidien :
           ENT, syllabus, emploi du temps, Moodle, sites des clubs et assos ...
         </p>
-        <img src="../assets/img/bee.svg" alt="Abeille" class="h-48 rotate-6 xl:hidden" />
+        <img src="../assets/img/bee.svg" alt="Abeille" class="toReloadCoco h-48 rotate-6 xl:hidden" />
       </div>
     </div>
   </section>

@@ -7,7 +7,7 @@ const logos = [
   { name: 'BDA', url: 'bda.png', link: 'https://bda.eirb.fr' },
   { name: 'BDE', url: 'bde.png', link: 'https://bde.eirb.fr' },
   { name: 'BDS', url: 'bds.png', link: 'https://bds.eirb.fr' },
-  { name: 'Essaim', url: 'essaim.png', link: 'https://essaim.eirb.fr' },
+  { name: 'Essaim', url: 'essaim_light.png', link: 'https://essaim.eirb.fr', addClass: 'toReloadDark' },
   { name: 'Le Bar', url: 'bar.png', link: 'https://bar.eirb.fr' },
   { name: 'Eirbot', url: 'eirbot.png', link: 'https://eirbot.eirb.fr' },
   { name: 'Game Creation Club', url: 'gcc.png', link: 'https://gcc.eirb.fr' }, // site très peu à jour
@@ -28,11 +28,16 @@ const logos = [
   // { name: 'EMK', url: 'emk.png', link: 'https://emk.eirb.fr' },
 ].sort(() => Math.random() - 0.5); // marrant de les mettre en ordre aléatoire, c'est une bonne idée
 
+// compute which class should be added for an image considering
+const classForImg = (team) => {
+    return `${team.addClass} mx-6 h-20 rounded-full lg:h-28`;
+}
+
 const [lw1, lw2] = [ref(null), ref(null)];
 
-const getImageUrl = (name) => new URL(`../assets/logos/${name}`, import.meta.url).href;
-const imageUrl = (url) => getImageUrl(url);
+const imageUrl = (url) => new URL(`../assets/logos/${url}`, import.meta.url).href;
 
+// setup the sliding banner
 onMounted(() => {
   const tl = gsap.timeline({ repeat: -1 });
   tl.fromTo([lw1.value, lw2.value], { x: 0 }, { x: '-100%', duration: 30, ease: 'linear' });
@@ -43,12 +48,12 @@ onMounted(() => {
   <div class="flex h-36 w-full flex-row overflow-hidden lg:h-48">
     <div ref="lw1" class="flex min-w-full shrink-0 flex-row items-center justify-around">
       <a v-for="l in logos" :href="l.link" target="_blank">
-        <img :src="imageUrl(l.url)" :alt="'Logo ' + l.name" class="mx-6 h-20 rounded-full lg:h-28" />
+        <img :src="imageUrl(l.url)" :alt="'Logo ' + l.name" :class="classForImg(l)" />
       </a>
     </div>
     <div ref="lw2" class="flex min-w-full shrink-0 flex-row items-center justify-around">
       <a v-for="l in logos" :href="l.link" target="_blank">
-        <img :src="imageUrl(l.url)" :alt="'Logo ' + l.name" class="mx-6 h-20 rounded-full lg:h-28" />
+        <img :src="imageUrl(l.url)" :alt="'Logo ' + l.name" :class="classForImg(l)" />
       </a>
     </div>
   </div>

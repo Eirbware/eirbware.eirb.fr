@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp ./src/assets/img/*_coco.svg ./dist/assets/",
     "preview": "vite preview"
   },
   "dependencies": {
